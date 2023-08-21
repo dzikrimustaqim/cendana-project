@@ -1,0 +1,856 @@
+# Translation of Themes - Flash in Indonesian
+# This file is distributed under the same license as the Themes - Flash package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-08-13 08:56:26+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: id\n"
+"Project-Id-Version: Themes - Flash\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Flash is free responsive multipurpose WordPress theme – truly a versatile theme perfect for any type of website you want. Like never before, it provides multiple pre-built demos which can be imported in seconds using ThemeGrill Demo Importer Plugin. The theme fully integrates with Flash Toolkit and SiteOrigin’s Page Builder Plugin that makes theme more user-friendly and easy. Additionally, theme features multiple blog layouts, WooCommerce support, multiple header styles, multiple color options etc."
+msgstr "Flash adalah tema WordPress responsif - sangat serba guna sempurna untuk jenis situs web apapun. Tidak pernah sebelumnya, ini memberikan pre-built multi demo yang dapat di impor dalam hitungan detik menggunakan plugin ThemeGrill Demo Importer. Tema terintegrasi dengan plugin Flash Toolkit dan SiteOrigin's Page Builder yang membuat tema ramah pengguna dan mudah. Tambahan, memiliki fitur bulti tata letak blog, bantuan WooCommerce, gaya header multi, opsi multi warna, dsb."
+
+#. Theme Name of the theme
+#: inc/admin/class-flash-theme-review-notice.php:75
+#: inc/admin/class-flash-welcome-notice.php:46
+#, gp-priority: high
+msgid "Flash"
+msgstr "Flash"
+
+#. translators: %1$s represents the field ID where the error occurs. %2%s is
+#. buttonset/image.
+#: inc/kirki/field/class-kirki-field-radio.php:37
+msgid "Error in field %1$s. The \"mode\" argument has been deprecated since Kirki v0.8. Use the \"radio-%2$s\" type instead."
+msgstr "Kesalahan pada bidang %1$s. argumen \"mode\" tidak lagi digunakan sejak Kirki v0.8. Gunakan saja jenis \"radio-%2$s\"."
+
+#: inc/kirki/field/class-kirki-field-color.php:52
+msgid "Do not use \"alpha\" as an argument in color controls. Use \"choices[alpha]\" instead."
+msgstr "Jangan gunakan \"alpha\" sebagai argumen di kendali warna. Gunakan \"choices[alpha]\" saja."
+
+#: inc/customizer.php:192
+msgid "Typography"
+msgstr "Tipografi"
+
+#: inc/customizer.php:73
+msgid "Background"
+msgstr "Latar Belakang"
+
+#: inc/kirki/deprecated/functions.php:19
+msgid "%1$s or %2$s"
+msgstr "%1$s atau %2$s"
+
+#: inc/kirki/core/class-kirki.php:237
+msgid "Kirki fields should not be added on customize_register. Please add them directly, or on init."
+msgstr "Bidang kirki seharusnya tidak ditambahkan pada customize_register. Silahkan tambah langsung, atau didalamnya."
+
+#: inc/kirki/core/class-kirki-init.php:289
+msgid "We detected you're using Kirki_Init::get_variables(). Please use Kirki_Util::get_variables() instead."
+msgstr "Kami mendeteksi Anda menggunakan Kirki_Init::get_variables(). Gunakanlah Kirki_Util::get_variables()."
+
+#. translators: The field ID where the error occurs.
+#: inc/kirki/core/class-kirki-field.php:498
+#: inc/kirki/core/class-kirki-field.php:509
+msgid "\"output\" invalid format in field %s. The \"output\" argument should be defined as an array of arrays."
+msgstr "\"output\" format tidak valid di bidang %s. Argumen \"output\" seharusnya ditemukan sebagai array dari array."
+
+#. translators: %1$s represents the field ID where the error occurs.
+#: inc/kirki/core/class-kirki-field.php:375
+msgid "\"partial_refresh\" invalid entry in field %s"
+msgstr "\"partial_refresh\" tidak valid entri di bidang %s"
+
+#. translators: %1$s represents the field ID where the error occurs.
+#: inc/kirki/core/class-kirki-field.php:358
+msgid "Typo found in field %s - \"theme_mods\" vs \"theme_mod\""
+msgstr "Typo ditemukan di bidang %s - \"theme_mods\" vs \"theme_mod\""
+
+#. translators: %1$s represents the field ID where the error occurs. %2$s is
+#. the URL in the documentation site.
+#: inc/kirki/core/class-kirki-field.php:257
+#: inc/kirki/core/class-kirki-field.php:267
+msgid "Config not defined for field %1$s - See %2$s for details on how to properly add fields."
+msgstr "Config tidak ditemukan untuk bidang %1$s - Lihat %2$s untuk rincian bagaimana menambah bidang dengan benar."
+
+#. translators: %s represents the field ID where the error occurs.
+#: inc/kirki/core/class-kirki-field.php:248
+msgid "Typo found in field %s - setting instead of settings."
+msgstr "Typo ditemukan di bidang %s - setting bukan settings."
+
+#: inc/kirki/controls/php/class-kirki-control-slider.php:67
+msgid "Reset"
+msgstr "Reset"
+
+#: inc/kirki/upgrade-notifications.php:30
+msgid "Important Upgrade Notice:"
+msgstr "Pesan Peningkatan Penting:"
+
+#. translators: The title.
+#: inc/kirki/modules/custom-sections/sections/class-kirki-sections-nested-section.php:64
+msgid "Customizing &#9656; %s"
+msgstr "Menyesuaikan &#9656; %s"
+
+#: inc/kirki/modules/custom-sections/sections/class-kirki-sections-nested-section.php:61
+msgid "Customizing"
+msgstr "Menyesuaikan"
+
+#: inc/kirki/controls/php/class-kirki-control-switch.php:56
+#: inc/kirki/field/class-kirki-field-switch.php:40
+msgid "Off"
+msgstr "Mati"
+
+#: inc/kirki/controls/php/class-kirki-control-switch.php:52
+#: inc/kirki/field/class-kirki-field-switch.php:39
+msgid "On"
+msgstr "Nyala"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:213
+msgid "Margin Bottom"
+msgstr "Jarak Bawah"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:205
+msgid "Margin Top"
+msgstr "Jarak Atas"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:87
+msgid "Backup Font"
+msgstr "Backup Font"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:83
+#: inc/kirki/controls/php/class-kirki-control-typography.php:88
+msgid "Select Font Family"
+msgstr "Pilih Font Family"
+
+#. translators: %s represents the label of the row.
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:86
+msgid "Add new %s"
+msgstr "Tambah baru %s"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:136
+msgid "Width"
+msgstr "Lebar"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:128
+#: inc/kirki/controls/php/class-kirki-control-typography.php:126
+msgid "Word Spacing"
+msgstr "Jarak Kata"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:106
+msgid "Auto"
+msgstr "Otomatis"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:63
+#: inc/kirki/controls/php/class-kirki-control-base.php:135
+msgid "Select File"
+msgstr "Pilih Berkas"
+
+#: inc/kirki/controls/php/class-kirki-control-base.php:137
+msgid "Google Fonts"
+msgstr "Google Fonts"
+
+#: inc/extras.php:334
+msgid "Page "
+msgstr "Laman"
+
+#. Template Name of the theme
+msgid "Pagebuilder"
+msgstr "Pagebuilder"
+
+#: template-parts/content-page.php:25 template-parts/content.php:67
+msgid "Pages:"
+msgstr "Laman:"
+
+#: template-parts/content-none.php:31
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Sepertinya kami tidak dapat menemukan apa yang Anda cari. Mungkin pencarian akan membantu."
+
+#: template-parts/content-none.php:25
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Maaf, kami tidak menemukan yang cocok dengan kata kunci Anda. Silahkan coba lagi dengan kata kunci lain."
+
+#: template-parts/content-none.php:21
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Siap mempublikasikan pos pertama Anda? <a href=\"%1$s\">Mulai disini</a>."
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Tidak Ditemukan"
+
+#: searchform.php:15
+msgctxt "submit button"
+msgid "Search"
+msgstr "Cari"
+
+#: searchform.php:13
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Cari &hellip;"
+
+#: searchform.php:12
+msgctxt "label"
+msgid "Search for:"
+msgstr "Cari:"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:77 template-parts/content-page.php:37
+msgid "Edit %s"
+msgstr "Sunting %s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:59 inc/template-tags.php:67
+msgid ", "
+msgstr ", "
+
+#. translators: %s: post title
+#: inc/template-tags.php:43
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Tinggalkan Komentar<span class=\"screen-reader-text\"> pada %s</span>"
+
+#: inc/meta-boxes.php:57
+msgid "Header Transparency"
+msgstr "Transparansi Header"
+
+#: inc/meta-boxes.php:55 inc/meta-boxes.php:56
+msgid "Select Layout"
+msgstr "Pilih Tata Letak"
+
+#: inc/meta-boxes.php:47
+msgid "Non Transparent Header"
+msgstr "Tanpa Header Transparan"
+
+#: inc/meta-boxes.php:42
+msgid "Transparent Header"
+msgstr "Header Transparan"
+
+#: inc/meta-boxes.php:34
+msgid "Full Width Center"
+msgstr "Lebar Penuh Tengah"
+
+#. Template Name of the theme
+#: inc/meta-boxes.php:29
+msgid "Full Width"
+msgstr "Lebar Penuh"
+
+#: inc/meta-boxes.php:14
+msgid "Default Layout"
+msgstr "Tata Letak Bawaan"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:121
+msgid "Select a Page"
+msgstr "Pilih Laman"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:180
+#: inc/kirki/controls/php/class-kirki-control-typography.php:196
+msgid "Initial"
+msgstr "Awal"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:179
+msgid "Lowercase"
+msgstr "Huruf kecil"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:178
+msgid "Uppercase"
+msgstr "Huruf Besar"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:177
+msgid "Capitalize"
+msgstr "Kapital"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:176
+#: inc/kirki/controls/php/class-kirki-control-typography.php:192
+msgid "None"
+msgstr "Tidak Satupun"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:173
+msgid "Text Transform"
+msgstr "Transformasi Tulisan"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:134
+msgid "Text Align"
+msgstr "Penjajaran Tulisan"
+
+#. translators: %s represents the number of rows we're limiting the repeater to
+#. allow.
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:227
+msgid "Limit: %s rows"
+msgstr "Batas: %s baris"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:77
+msgid "row"
+msgstr "baris"
+
+#: inc/kirki/controls/php/class-kirki-control-dimension.php:41
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:138
+msgid "Invalid Value"
+msgstr "Nilai Tidak Valid"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:220
+msgid "Ultra-Bold 900 Italic"
+msgstr "Ultra-Bold 900 Italic"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:218
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:219
+msgid "Ultra-Bold 900"
+msgstr "Ultra-Bold 900"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:217
+msgid "Extra-Bold 800 Italic"
+msgstr "Extra-Bold 800 Italic"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:215
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:216
+msgid "Extra-Bold 800"
+msgstr "Extra-Bold 800"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:214
+msgid "Bold 700 Italic"
+msgstr "Bold 700 Italic"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:213
+msgid "Bold 700"
+msgstr "Bold 700"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:212
+msgid "Semi-Bold 600 Italic"
+msgstr "Semi-Bold 600 Italic"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:210
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:211
+msgid "Semi-Bold 600"
+msgstr "Semi-Bold 600"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:209
+msgid "Medium 500 Italic"
+msgstr "Medium 500 Italic"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:208
+msgid "Medium 500"
+msgstr "Medium 500"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:207
+msgid "Normal 400 Italic"
+msgstr "Normal 400 Italic"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:205
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:206
+msgid "Normal 400"
+msgstr "Normal 400"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:204
+msgid "Book 300 Italic"
+msgstr "Book 300 Italic"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:203
+msgid "Book 300"
+msgstr "Book 300"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:202
+msgid "Light 200 Italic"
+msgstr "Light 200 Italic"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:201
+msgid "Light 200"
+msgstr "Light 200"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:200
+msgid "Ultra-Light 100 Italic"
+msgstr "Ultra-Light 100 Italic"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:198
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:199
+msgid "Ultra-Light 100"
+msgstr "Ultra-Light 100"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:135
+msgid "Spacing"
+msgstr "Jarak"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:137
+msgid "Height"
+msgstr "Tinggi"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:134
+msgid "Size"
+msgstr "Ukuran"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:93
+msgid "Variant"
+msgstr "Varian"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:62
+#: inc/kirki/controls/php/class-kirki-control-base.php:133
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:386
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:418
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:443
+#: inc/kirki/controls/views/image.php:37
+#: inc/kirki/field/class-kirki-field-image.php:50
+msgid "Remove"
+msgstr "Singkirkan"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:59
+#: inc/kirki/controls/php/class-kirki-control-base.php:132
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:408
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:413
+msgid "No File Selected"
+msgstr "Tidak Ada Berkas Dipilih"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:419
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:421
+msgid "Change File"
+msgstr "Ubah Berkas"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:419
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:423
+msgid "Add File"
+msgstr "Tambah Berkas"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:376
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:381
+msgid "No Image Selected"
+msgstr "Tidak Ada Gambar Dipilih"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:387
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:389
+msgid "Change Image"
+msgstr "Ubah Gambar"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:387
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:391
+msgid "Add Image"
+msgstr "Tambah Gambar"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:221
+msgid "Color"
+msgstr "Warna"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:163
+msgid "Justify"
+msgstr "Justify"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:133
+#: inc/kirki/controls/php/class-kirki-control-typography.php:151
+msgid "Center"
+msgstr "Tengah"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:132
+#: inc/kirki/controls/php/class-kirki-control-typography.php:157
+#: inc/kirki/field/class-kirki-field-spacing.php:35
+msgid "Right"
+msgstr "Kanan"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:131
+#: inc/kirki/controls/php/class-kirki-control-typography.php:145
+#: inc/kirki/field/class-kirki-field-spacing.php:34
+msgid "Left"
+msgstr "Kiri"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:130
+#: inc/kirki/field/class-kirki-field-spacing.php:33
+msgid "Bottom"
+msgstr "Bawah"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:129
+#: inc/kirki/field/class-kirki-field-spacing.php:32
+msgid "Top"
+msgstr "Atas"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:127
+#: inc/kirki/controls/php/class-kirki-control-typography.php:118
+msgid "Letter Spacing"
+msgstr "Jarak Huruf"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:126
+msgid "Font Style"
+msgstr "Gaya Font"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:125
+#: inc/kirki/controls/php/class-kirki-control-typography.php:110
+msgid "Line Height"
+msgstr "Tinggi Barisan"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:124
+msgid "Font Weight"
+msgstr "Ketebalan Font"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:123
+#: inc/kirki/controls/php/class-kirki-control-typography.php:102
+msgid "Font Size"
+msgstr "Ukuran Font"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:82
+msgid "Font Family"
+msgstr "Font Family"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:81
+msgid "Background Position"
+msgstr "Posisi Latar Belakang"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:91
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:122
+msgid "Center Bottom"
+msgstr "Tengah Bawah"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:90
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:121
+msgid "Center Center"
+msgstr "Tengah Tengah"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:89
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:120
+msgid "Center Top"
+msgstr "Tengah Atas"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:88
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:119
+msgid "Right Bottom"
+msgstr "Kanan Bawah"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:87
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:118
+msgid "Right Center"
+msgstr "Kanan Tengah"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:86
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:117
+msgid "Right Top"
+msgstr "Kanan Atas"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:85
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:116
+msgid "Left Bottom"
+msgstr "Kiri Bawah"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:84
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:115
+msgid "Left Center"
+msgstr "Kiri Tengah"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:83
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:114
+msgid "Left Top"
+msgstr "Kiri Atas"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:113
+msgid "Background Attachment"
+msgstr "Lampiran Latar Belakang"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:116
+msgid "Scroll"
+msgstr "Gulir"
+
+#: inc/customizer.php:902 inc/customizer.php:925
+#: inc/kirki/controls/php/class-kirki-control-background.php:119
+msgid "Fixed"
+msgstr "Tetap"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:97
+msgid "Background Size"
+msgstr "Ukuran Latar Belakang"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:103
+msgid "Contain"
+msgstr "Mengandung"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:100
+msgid "Cover"
+msgstr "Sampul"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:70
+msgid "Background Repeat"
+msgstr "Pengulangan Latar Belakang"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:139
+#: inc/kirki/controls/php/class-kirki-control-typography.php:181
+#: inc/kirki/controls/php/class-kirki-control-typography.php:197
+msgid "Inherit"
+msgstr "Inherit"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:75
+msgid "Repeat Vertically"
+msgstr "Ulangi Vertikal"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:74
+msgid "Repeat Horizontally"
+msgstr "Ulangi Horizontal"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:73
+msgid "Repeat All"
+msgstr "Ulangi Semua"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:72
+msgid "No Repeat"
+msgstr "Tidak Diulangi"
+
+#: inc/customizer.php:591
+#: inc/kirki/controls/php/class-kirki-control-background.php:54
+msgid "Background Image"
+msgstr "Gambar Latar Belakang"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:48
+msgid "Background Color"
+msgstr "Warna Latar Belakang"
+
+#: inc/extras.php:366
+msgid "Search Results for: %s"
+msgstr "Hasil Pencarian untuk: %s"
+
+#: inc/extras.php:364
+msgid "Page NOT Found"
+msgstr "Laman TIDAK Ditemukan"
+
+#: inc/extras.php:344
+msgid "404 Error"
+msgstr "404 Error"
+
+#: inc/extras.php:339
+msgid "Search results for: "
+msgstr "Hasil pencarian untuk:"
+
+#: inc/extras.php:303
+msgid "jS"
+msgstr "jS"
+
+#: inc/extras.php:300 inc/extras.php:303 inc/extras.php:313
+msgid "M"
+msgstr "M"
+
+#: inc/extras.php:297 inc/extras.php:300 inc/extras.php:310 inc/extras.php:318
+msgid "Y"
+msgstr "Y"
+
+#: inc/extras.php:155
+msgid "Home"
+msgstr "Beranda"
+
+#: inc/extras.php:134
+msgid "WordPress"
+msgstr "WordPress"
+
+#: inc/extras.php:134
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: inc/extras.php:133
+msgid " Theme: %2$s by %1$s."
+msgstr "Tema: %2$s by %1$s."
+
+#: inc/extras.php:131
+msgid "Copyright %1$s %2$s"
+msgstr "Copyright %1$s %2$s"
+
+#: inc/customizer.php:1394
+msgid "Yellow"
+msgstr "Kuning"
+
+#: inc/customizer.php:1385
+msgid "Red"
+msgstr "Merah"
+
+#: inc/customizer.php:1376
+msgid "Gray"
+msgstr "Abu-Abu"
+
+#: inc/customizer.php:1367
+msgid "Dark"
+msgstr "Gelap"
+
+#: inc/customizer.php:1358
+#: inc/kirki/controls/php/class-kirki-control-base.php:134
+#: inc/kirki/controls/views/image.php:36
+#: inc/kirki/field/class-kirki-field-image.php:49
+msgid "Default"
+msgstr "Bawaan"
+
+#: inc/customizer.php:970
+msgid "Custom CSS"
+msgstr "CSS Kustom"
+
+#: inc/customizer.php:537
+msgid "Sticky Header"
+msgstr "Header Lengket"
+
+#: inc/customizer.php:428
+msgid "Top Header Text Content"
+msgstr "Konten Tulisan Header Atas"
+
+#: inc/customizer.php:384 inc/customizer.php:410 inc/customizer.php:496
+#: inc/customizer.php:522 inc/customizer.php:631 inc/customizer.php:823
+#: inc/customizer.php:848 inc/customizer.php:936 inc/customizer.php:1012
+msgid "Disable"
+msgstr "Tiadakan"
+
+#: inc/customizer.php:382 inc/customizer.php:408
+msgid "Social Menu"
+msgstr "Menu MedSos"
+
+#: inc/customizer.php:113
+msgid "Boxed Layout"
+msgstr "Tata Letak Kotak"
+
+#: inc/customizer.php:112
+msgid "Wide Layout"
+msgstr "Tata Letak Lebar"
+
+#: inc/customizer.php:94
+msgid "Site Layout"
+msgstr "Tata Letak Situs"
+
+#: inc/customizer.php:285
+msgid "Transparent Logo"
+msgstr "Transparansi Logo"
+
+#: inc/kirki/core/class-kirki-init.php:368
+msgid "Install Plugin"
+msgstr "Instal Plugin"
+
+#: inc/admin/class-flash-dashboard.php:101
+msgid "Got theme support question?"
+msgstr "Ada pertanyaan seputar bantuan tema?"
+
+#: inc/admin/class-flash-dashboard.php:92
+msgid "Documentation"
+msgstr "Dokumentasi"
+
+#: inc/admin/class-flash-welcome-notice.php:26
+#: inc/class-flash-site-library.php:102
+msgid "Get started with Flash"
+msgstr "Mulai Flash"
+
+#. translators: 1: welcome page link starting html tag, 2: welcome page link
+#. ending html tag.
+#: inc/admin/class-flash-welcome-notice.php:54
+msgid "Welcome! Thank you for choosing Flash! To fully take advantage of the best our theme can offer please make sure you visit our %1$swelcome page%2$s."
+msgstr "Selamat Datang! Terimakasih telah memilih Flash! Untuk mendapat manfaat lebih dari apa yang tema ini tawarkan mohon kunjungi laman %1$shalaman selamat datang%2$s kami."
+
+#: inc/admin/class-flash-notice.php:63 inc/admin/class-flash-notice.php:82
+#: inc/admin/class-flash-welcome-notice.php:81
+msgid "Cheatin&#8217; huh?"
+msgstr "Aneh hah ?"
+
+#: inc/admin/class-flash-notice.php:59 inc/admin/class-flash-notice.php:78
+#: inc/admin/class-flash-theme-review-notice.php:153
+#: inc/admin/class-flash-theme-review-notice.php:171
+#: inc/admin/class-flash-welcome-notice.php:77
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Tindakan gagal. Silahkan muat ulang laman dan coba lagi."
+
+#: header.php:59
+msgid "Skip to content"
+msgstr "Loncat ke konten"
+
+#: functions.php:206
+msgid "Add widgets here for footer sidebar 4."
+msgstr "Tambah widget disini untuk sidebar footer 4."
+
+#: functions.php:204
+msgid "Footer Sidebar 4"
+msgstr "Footer Sidebar 4"
+
+#: functions.php:196
+msgid "Add widgets here for footer sidebar 3."
+msgstr "Tambah widget disini untuk sidebar footer 3."
+
+#: functions.php:194
+msgid "Footer Sidebar 3"
+msgstr "Footer Sidebar 3"
+
+#: functions.php:186
+msgid "Add widgets here for footer sidebar 2."
+msgstr "Tambah widget disini untuk sidebar footer 2."
+
+#: functions.php:184
+msgid "Footer Sidebar 2"
+msgstr "Footer Sidebar 2"
+
+#: functions.php:176
+msgid "Add widgets here for footer sidebar 1."
+msgstr "Tambah widget disini untuk sidebar footer 1."
+
+#: functions.php:174
+msgid "Footer Sidebar 1"
+msgstr "Footer Sidebar 1"
+
+#: functions.php:166
+msgid "Add widgets here for left sidebar."
+msgstr "Tambah widget disini untuk sidebar kiri."
+
+#: functions.php:164 inc/meta-boxes.php:24
+msgid "Left Sidebar"
+msgstr "Sidebar Kiri"
+
+#: functions.php:156
+msgid "Add widgets here for right sidebar."
+msgstr "Tambah widget disini untuk sidebar kanan."
+
+#: functions.php:154 inc/meta-boxes.php:19
+msgid "Right Sidebar"
+msgstr "Sidebar Kanan"
+
+#: functions.php:61 inc/customizer.php:859
+msgid "Footer"
+msgstr "Footer"
+
+#: functions.php:60
+msgid "Social"
+msgstr "Sosial"
+
+#: functions.php:59
+msgid "Primary"
+msgstr "Utama"
+
+#: comments.php:92
+msgid "Comments are closed."
+msgstr "Komentar ditutup."
+
+#: comments.php:57 comments.php:79
+msgid "Newer Comments"
+msgstr "Komentar Terbaru"
+
+#: comments.php:56 comments.php:78
+msgid "Older Comments"
+msgstr "Komentar Terlama"
+
+#: comments.php:53 comments.php:75
+msgid "Comment navigation"
+msgstr "Navigasi komentar"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:37
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s Balas ke &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s Balas ke &ldquo;%2$s&rdquo;"
+
+#. translators: %s: post title
+#: comments.php:33
+msgctxt "comments title"
+msgid "One Thought on &ldquo;%s&rdquo;"
+msgstr "1 Komentar pada &ldquo;%s&rdquo;"
+
+#: 404.php:29
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Sepertinya tidak ada apa-apa disini. Cobalah beberapa link dibawah ini atau lakukan pencarian ?"
+
+#: 404.php:25
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hmm... Laman tidak ditemukan."
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://themegrill.com"
+msgstr "https://themegrill.com"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "ThemeGrill"
+msgstr "ThemeGrill"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://themegrill.com/themes/flash"
+msgstr "https://themegrill.com/themes/flash"

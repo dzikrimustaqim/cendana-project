@@ -1,0 +1,51 @@
+<wpml-config>
+	<admin-texts>
+		<key name="socialsnap_settings">
+			<key name="ss_social_share_networks">
+				<key name="facebook">
+					<key name="text" />		
+				</key>
+				<key name="twitter">
+					<key name="text" />		
+				</key>
+				<key name="linkedin">
+					<key name="text" />		
+				</key>
+				<key name="mix">
+					<key name="text" />		
+				</key>
+				<key name="envelope">
+					<key name="text" />		
+				</key>
+				<key name="print">
+					<key name="text" />		
+				</key>
+				<key name="copy">
+					<key name="text" />		
+				</key>
+			</key>
+			<key name="ss_ss_inline_content_share_label" />
+			<key name="ss_ss_inline_content_all_networks_label" />
+			<key name="ss_social_follow_connect_networks">
+				<key name="facebook">
+					<key name="label" />		
+				</key>
+				<key name="twitter">
+					<key name="label" />		
+				</key>
+				<key name="pinterest">
+					<key name="label" />		
+				</key>
+				<key name="instagram">
+					<key name="label" />		
+				</key>
+				<key name="tumblr">
+					<key name="label" />		
+				</key>
+				<key name="mix">
+					<key name="label" />		
+				</key>
+			</key>
+		</key>
+	</admin-texts>
+</wpml-config>

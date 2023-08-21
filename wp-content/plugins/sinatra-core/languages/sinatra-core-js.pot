@@ -1,0 +1,12 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+
+#: includes/blocks/custom-block/index.js:13
+msgid "Custom Block."
+msgstr ""
+
+#: includes/blocks/custom-block/index.js:44
+msgid "Custom Block"
+msgstr ""

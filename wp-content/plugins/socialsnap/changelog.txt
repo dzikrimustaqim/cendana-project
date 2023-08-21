@@ -1,0 +1,223 @@
+== Changelog ==
+
+= 1.3.3 =
+- Fixed: Custom style not working.
+
+= 1.3.2 =
+- Improved: Security.
+
+= 1.3.1 =
+- Added: Translation option for follow links.
+- Added: Compatibility with Bricks Builder.
+- Fixed: On media buttons break image height.
+- Fixed: "Powered By" link was enabled by default.
+
+= 1.3 =
+- Fixed: Custom query args not included in share link.
+- Fixed: On media buttons add white space below image.
+- Fixed: Twitter share popup height.
+
+= 1.2 =
+- Fixed: CLS issue with on media buttons.
+- Fixed: Floating bar not displaying when enabled.
+
+= 1.1.20 =
+- Fixed: Showing HTML in footer.
+- Fixed: Widgets styling not working.
+
+= 1.1.19 =
+- Fixed: Showing HTML in footer.
+
+= 1.1.18 =
+- Added: Share Text option for Share Button Block.
+- Added: Filter for All Networks popup.
+- Fixed: Assets loading on pages not using Social Snap.
+
+= 1.1.17 =
+- Fixed: Cookies do not contain the "secure" attribute.
+- Fixed: Compatibility with "Before After Image Slider & Gallery" plugin.
+- Fixed: Attachments not saving custom Social Snap settings.
+
+= 1.1.16 =
+- Fixed: On media buttons bug on lazy loaded images.
+- Fixed: jQuery deprecated error.
+- Fixed: Follow networks not updating username and link.
+
+= 1.1.15 =
+- Fixed: Google Analytics click tracking.
+- Fixed: Compatibility issue - data attributes stripped.
+- Improved: Click to Tweet shortcode allows HTML tags.
+- Improved: Copy button auto-selecting the link.
+
+= 1.1.14 =
+- Updated: Facebook and Linkedin branding - updated icons and colors to match the branding guides.
+- Fixed: Compatiblity with Twenty20 plugin.
+- Fixed: Empty ID attribute appearing in popup modal.
+- Fixed: Share buttons not displaying on selected custom post type.
+
+= 1.1.13 =
+- Fixed: HTML Error Duplicate ID: "ss-close-share-networks-modal".
+
+= 1.1.12 =
+- Added: Disconnect Facebook Authorization for social share provider.
+- Fixed: Share counts not incrementing.
+- Fixed: Copy button not working and not displaying properly.
+
+= 1.1.11 =
+- Fixed: Metabox fields not displaying properly.
+- Fixed: Settings panel not loading correctly.
+- Fixed: Design compatibility with WordPress 5.5.
+
+= 1.1.10 =
+- Added: Option to display share buttons on archive pages for custom post types.
+- Added: Reset share count flag.
+- Fixed: All networks button not working.
+- Fixed: Wrong link shared when using shortcodes.
+- Improved: Security.
+
+= 1.1.9 =
+- Added: Option to display share buttons on archive pages.
+- Added: Char count for custom Pinterest Description field.
+- Improved: Icons are displayed as an SVG instead of using font.
+- Improved: Compatibility with Oxygen page builder. 
+- Improved: Share & Follow count caching.
+- Fixed: Inline buttons on archive/posts page displaying wrong title & link.
+- Fixed: Inline buttons shortcode displaying on pages where buttons are disabled.
+- Fixed: API calls made to networks not used on a page.
+- Fixed: Click to Tweet block not displaying new lines.
+- Fixed: Copy button - custom share target not working.
+- Fixed: Follow buttons block displaying out of the container.
+- Fixed: Quick edit for disabling share buttons in conflict with Divi Builder.
+
+= 1.1.8.3 =
+- Added: Filter for "Powered by" link.
+- Improved: Share buttons shortcode can specify shared text.
+- Improved: PHP Compatibility.
+- Improved: Accessibility.
+- Fixed: WPML Translations not working.
+- Fixed: Follow widget not working with some page builders.
+
+= 1.1.8.2 =
+- Fixed: Click to Tweet displays HTML tags.
+- Fixed: Floating Sidebar buttons share wrong page.
+- Fixed: Quick Edit option to disable sharing not working.
+- Improved: Accessibility.
+
+= 1.1.8.1 =
+- Fixed: Quick Editor option to Disable share counts not working on pages.
+
+= 1.1.8 =
+- Added: Migration support: Social Pug - migrate settings and share counts.
+- Improved: Yoast SEO compatibility.
+- Improved: WooCommerce compatibility.
+- Improved: WordPress Multisite.
+- Improved: Print styles.
+- Improved: Accessibility.
+- Fixed: Revolution Slider compatibility.
+- Fixed: Click To Tweet formatting not working.
+- Fixed: Minor CSS issues.
+
+= 1.1.7 =
+- Added: Shortcode for On Media share buttons.
+- Added: WPML configuration file.
+- Added: Option to disable share buttons in Quick Edit.
+
+= 1.1.6 =
+- Added: Migration support: MashShare - migrate settings and share counts.
+- Fixed: Incorrect share counts on posts page.
+- Fixed: Email share button opens a blank window.
+- Fixed: Minor CSS issues.
+
+= 1.1.5.5 =
+- Added: Social Warfare Click to Tweet migration.
+- Fixed: On Media buttons bug with duplicate images.
+
+= 1.1.5.4 =
+- Fixed: Shared URL has no custom parameters.
+- Fixed: Copy button bug.
+
+= 1.1.5.2 =
+- Fixed: Total Share count not displaying.
+- Fixed: Settings panel unresponsive.
+- Fixed: Multiple share pop-ups opening.
+
+= 1.1.5.1 =
+- Improved: Facebook Share counts.
+
+= 1.1.5 =
+- Added: Facebook Share provider option: Click Tracking, Facebook Graph API, SharedCount.com.
+- Improved: Caching and performance enhancements.
+- Improved: CSS styling.
+- Fixed: Dismissed notices always visible.
+- Fixed: Share links appearing when disabled.
+- Removed: Google Plus share and follow network.
+
+= 1.1.4.1 =
+- Fixed: Facebook Share counts.
+
+= 1.1.4 =
+- Improved: Share counts caching.
+
+= 1.1.3 =
+- Added: Button to force refresh share counts in Social Settings » Social Sharing.
+- Added: Migration support: Social Warfare - migrate share counts.
+- Fixed: Total shares not updating.
+- Fixed: Minor CSS issues.
+- Improved: Security.
+- Removed: Notice about NewShareCounts.
+
+= 1.1.2 =
+- Added: Compatibility with AMP plugins.
+- Improved: SEO optimization.
+
+= 1.1.1 =
+- Added: Mix Share & Follow network.
+- Added: Compatibility with WordPress 5.0.
+- Fixed: Compatibility with Gutenberg 4.4.0+.
+- Fixed: Click to Tweet default styles.
+- Fixed: Minor CSS issues.
+- Fixed: On Media settings live preview.
+
+= 1.1.0 =
+- Improved: Migration support: Social Warfare - migrate post meta.
+- Fixed: Share count not accurate on WooCommerce shop page.
+
+= 1.0.9 =
+- Added: Social Sharing buttons for WooCommerce Shop page.
+- Added: Migration support: Social Warfare.
+- Fixed: Minor PHP bugs.
+
+= 1.0.8 =
+- Improved: Sharing buttons.
+
+= 1.0.7 =
+- Improved: Plugin performance, faster loading time.
+
+= 1.0.6 =
+- Improved: Translation/Localization files.
+- Improved: Metabox fields reorganization.
+- Improved: Notices system.
+
+= 1.0.5 =
+- Fixed: Conflict with Visual Composer Custom CSS.
+- Fixed: On Media style bug.
+- Removed: StumbleUpon network.
+
+= 1.0.4 =
+- Fixed: CSS display issue with On Media Share buttons.
+
+= 1.0.3 =
+- Fixed: PHP 7 Compatibility.
+
+= 1.0.2 =
+- Fixed: Input fields trigger in metaboxes.
+
+= 1.0.1 =
+- Added: GDPR Compliance options.
+- Fixed: Compatibility issues with cache plugins.
+- Fixed: Minor CSS issues with Click to Tweet boxes.
+- Fixed: On Media styling issues.
+- Fixed: Gutenberg compatibility.
+
+= 1.0.0 =
+* Initial release.

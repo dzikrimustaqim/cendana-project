@@ -1,0 +1,541 @@
+# Copyright (C) 2021 Sinatra Core
+# This file is distributed under the same license as the Sinatra Core package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Sinatra Core\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: sinatra-core.php:185
+msgid "Please activate Sinatra Theme before activating Sinatra Core."
+msgstr ""
+
+#: includes/admin/class-sinatra-core-admin.php:118
+msgid "Sinatra"
+msgstr ""
+
+#: includes/admin/class-sinatra-core-admin.php:130
+msgid "About"
+msgstr ""
+
+#: includes/admin/class-sinatra-core-admin.php:140
+msgid "Plugins"
+msgstr ""
+
+#: includes/admin/class-sinatra-core-admin.php:160
+msgid "Changelog"
+msgstr ""
+
+#: includes/admin/class-sinatra-core-admin.php:212
+msgid "Changelog file not readable."
+msgstr ""
+
+#: includes/admin/class-sinatra-core-admin.php:210
+msgid "Changelog file not found."
+msgstr ""
+
+#: includes/admin/class-sinatra-core-admin.php:227
+msgid "Sinatra Core Plugin Changelog"
+msgstr ""
+
+#: includes/admin/class-sinatra-core-admin.php:251
+msgid "Sinatra Theme needs to be installed and activated in order to use Sinatra Core plugin."
+msgstr ""
+
+#: includes/admin/class-sinatra-core-admin.php:251
+msgid "Install & Activate"
+msgstr ""
+
+#: includes/widgets/class-sinatra-core-posts-list-widget.php:42
+msgctxt "Widget"
+msgid "Displays a configurable list of your site’s posts."
+msgstr ""
+
+#: includes/widgets/class-sinatra-core-posts-list-widget.php:51
+msgctxt "Widget"
+msgid "[Sinatra] Posts List"
+msgstr ""
+
+#: includes/widgets/class-sinatra-core-posts-list-widget.php:192, includes/widgets/class-sinatra-core-social-links-widget.php:139
+msgctxt "Widget"
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets/class-sinatra-core-posts-list-widget.php:199
+msgctxt "Widget"
+msgid "Number of posts to show:"
+msgstr ""
+
+#: includes/widgets/class-sinatra-core-posts-list-widget.php:206
+msgctxt "sinatra-core"
+msgid "Display thumbnail"
+msgstr ""
+
+#: includes/widgets/class-sinatra-core-posts-list-widget.php:209
+msgctxt "sinatra-core"
+msgid "Display post date"
+msgstr ""
+
+#: includes/widgets/class-sinatra-core-posts-list-widget.php:212
+msgctxt "sinatra-core"
+msgid "Display post categories"
+msgstr ""
+
+#: includes/widgets/class-sinatra-core-posts-list-widget.php:216
+msgctxt "sinatra-core"
+msgid "Sort by:"
+msgstr ""
+
+#: includes/widgets/class-sinatra-core-posts-list-widget.php:218
+msgctxt "Widget"
+msgid "Date (Latest posts)"
+msgstr ""
+
+#: includes/widgets/class-sinatra-core-posts-list-widget.php:219
+msgctxt "Widget"
+msgid "Modified (Recently updated)"
+msgstr ""
+
+#: includes/widgets/class-sinatra-core-posts-list-widget.php:220
+msgctxt "Widget"
+msgid "Comment count (Most popular)"
+msgstr ""
+
+#: includes/widgets/class-sinatra-core-posts-list-widget.php:221
+msgctxt "Widget"
+msgid "Menu Order (Custom order)"
+msgstr ""
+
+#: includes/widgets/class-sinatra-core-social-links-widget.php:41
+msgctxt "Widget"
+msgid "Displays a list of social icon links."
+msgstr ""
+
+#: includes/widgets/class-sinatra-core-social-links-widget.php:50
+msgctxt "Widget"
+msgid "[Sinatra] Social Links"
+msgstr ""
+
+#: includes/widgets/class-sinatra-core-social-links-widget.php:149
+msgctxt "Widget"
+msgid "Menu:"
+msgstr ""
+
+#: includes/widgets/class-sinatra-core-social-links-widget.php:153
+msgctxt "Widget"
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: includes/widgets/class-sinatra-core-social-links-widget.php:167
+msgctxt "Widget"
+msgid "Style:"
+msgstr ""
+
+#: includes/widgets/class-sinatra-core-social-links-widget.php:171
+msgctxt "Widget"
+msgid "Minimal"
+msgstr ""
+
+#: includes/widgets/class-sinatra-core-social-links-widget.php:172
+msgctxt "Widget"
+msgid "Rounded"
+msgstr ""
+
+#: includes/widgets/class-sinatra-core-social-links-widget.php:178
+msgctxt "Widget"
+msgid "Align:"
+msgstr ""
+
+#: includes/widgets/class-sinatra-core-social-links-widget.php:182
+msgctxt "Widget"
+msgid "Left"
+msgstr ""
+
+#: includes/widgets/class-sinatra-core-social-links-widget.php:183
+msgctxt "Widget"
+msgid "Center"
+msgstr ""
+
+#: includes/widgets/class-sinatra-core-social-links-widget.php:184
+msgctxt "Widget"
+msgid "Right"
+msgstr ""
+
+#: includes/widgets/class-sinatra-core-social-links-widget.php:190
+msgctxt "Widget"
+msgid "Size:"
+msgstr ""
+
+#: includes/widgets/class-sinatra-core-social-links-widget.php:194
+msgctxt "Widget"
+msgid "Small"
+msgstr ""
+
+#: includes/widgets/class-sinatra-core-social-links-widget.php:195
+msgctxt "Widget"
+msgid "Standard"
+msgstr ""
+
+#: includes/widgets/class-sinatra-core-social-links-widget.php:196
+msgctxt "Widget"
+msgid "Large"
+msgstr ""
+
+#: includes/widgets/class-sinatra-core-social-links-widget.php:197
+msgctxt "Widget"
+msgid "Extra Large"
+msgstr ""
+
+#: includes/widgets/widgets.php:132
+msgctxt "Widget"
+msgid "New Item"
+msgstr ""
+
+#: includes/widgets/widgets.php:144
+msgctxt "Widget"
+msgid "Icon"
+msgstr ""
+
+#: includes/widgets/widgets.php:152
+msgctxt "Widget"
+msgid "Item Description"
+msgstr ""
+
+#: includes/widgets/widgets.php:159
+msgctxt "Widget"
+msgid "HTML tags and %1$sdynamic strings%2$s allowed."
+msgstr ""
+
+#: includes/widgets/widgets.php:170
+msgctxt "Widget"
+msgid "Add bottom separator"
+msgstr ""
+
+#: includes/widgets/widgets.php:173
+msgctxt "Widget"
+msgid "Remove"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-importer.php:104, includes/admin/demo-library/class-sinatra-demo-library.php:247
+msgid "You do not have permission to import a demo."
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-importer.php:111
+msgid "Import step not specified."
+msgstr ""
+
+#. translators: %s is import step.
+#: includes/admin/demo-library/class-sinatra-demo-importer.php:116
+msgid "Missing import step function: %s"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-importer.php:156
+msgid "Missing Demo ID"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-importer.php:212
+msgid "Can not retrieve class-customizer-import-export.php"
+msgstr ""
+
+#. translators: %s is import file name.
+#. translators: %s is import file name.
+#: includes/admin/demo-library/class-sinatra-demo-importer.php:260, includes/admin/demo-library/class-sinatra-demo-importer.php:281
+msgid "Import file “%s” not found."
+msgstr ""
+
+#. translators: %s is import file name.
+#: includes/admin/demo-library/class-sinatra-demo-importer.php:297
+msgid "Import file “%s” is empty."
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-importer.php:351
+msgid "Can not retrieve class-widgets-import-export.php"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-importer.php:404
+msgid "Can not retrieve class-wp-importer.php"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-importer.php:415
+msgid "Can not retrieve wordpress-importer.php"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-importer.php:428
+msgid "Sample data file appears corrupt or can not be accessed."
+msgstr ""
+
+#. translators: %s is import file name.
+#: includes/admin/demo-library/class-sinatra-demo-importer.php:477
+msgid "Options import failed. Import file “%s” not found."
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-importer.php:474
+msgid "Options import failed."
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-importer.php:492
+msgid "Options empty."
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-importer.php:503, includes/admin/demo-library/class-sinatra-demo-importer.php:540
+msgid "Can not retrieve class-options-import-export.php"
+msgstr ""
+
+#. translators: %1$s is remote file name
+#: includes/admin/demo-library/class-sinatra-demo-importer.php:692
+msgid "Could not download remote file: %1$s"
+msgstr ""
+
+#. translators: 1: is remote file name, 2: is error code.
+#: includes/admin/demo-library/class-sinatra-demo-importer.php:723
+msgid "Could not download remote file: %1$s. Error code: %2$s"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-importer.php:778
+msgid "Plugin activation error"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-importer.php:783
+msgid "Sinatra theme not active"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-importer.php:940, includes/cli/commands/class-cli-import.php:204
+msgid "Upload folder not writable."
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library-page.php:70, includes/admin/demo-library/class-sinatra-demo-library-page.php:91, includes/admin/demo-library/class-sinatra-demo-library-page.php:359
+msgid "Demo Library"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library-page.php:94
+msgid "Filter&hellip;"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library-page.php:98
+msgid "Refresh"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library-page.php:104
+msgid "All"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library-page.php:105
+msgid "Blog"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library-page.php:106
+msgid "Shop"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library-page.php:110
+msgid "Gutenberg"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library-page.php:118
+msgid "New demos coming soon"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library-page.php:171
+msgid "Import"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library-page.php:171, includes/admin/demo-library/class-sinatra-demo-library-page.php:201, includes/admin/demo-library/class-sinatra-demo-library-page.php:311
+msgid "Import Demo"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library-page.php:172, includes/admin/demo-library/class-sinatra-demo-library-page.php:172, includes/admin/demo-library/class-sinatra-demo-library-page.php:341, includes/admin/demo-library/class-sinatra-demo-library.php:135
+msgid "Preview"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library-page.php:196
+msgid "Close"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library-page.php:197
+msgid "Previous"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library-page.php:198
+msgid "Next"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library-page.php:213
+msgid "You are previewing"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library-page.php:230
+msgid "Import Options"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library-page.php:241
+msgid "Import Customizer Settings"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library-page.php:248
+msgid "Import Content"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library-page.php:249
+msgid "Import pages, posts and menus from this demo."
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library-page.php:256
+msgid "Import Media"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library-page.php:263
+msgid "Import Widgets"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library-page.php:274
+msgid "Plugins Used in This Demo"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library-page.php:291
+msgid "Already installed"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library-page.php:298
+msgid "These plugins will be auto-installed for you."
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library-page.php:319
+msgid "Collapse Sidebar"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library-page.php:321
+msgid "Collapse"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library-page.php:327
+msgid "Enter desktop preview mode"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library-page.php:330
+msgid "Enter tablet preview mode"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library-page.php:333
+msgid "Enter mobile preview mode"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library.php:122
+msgid "Warning! Demo import process is not complete. Don't close the window until import process is complete. Do you still want to leave the window?"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library.php:123
+msgid "Demo import process will start now. Please do not close the window until import process is complete."
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library.php:124
+msgid "Importing..."
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library.php:125
+msgid "Installing plugin"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library.php:126
+msgid "Plugin installed!"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library.php:127
+msgid "Activating plugin"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library.php:128
+msgid "Plugin activated! "
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library.php:129
+msgid "All Done! Visit Site"
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library.php:130
+msgid "Importing Customizer..."
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library.php:131
+msgid "Importing Content..."
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library.php:132
+msgid "Importing WPForms..."
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library.php:133
+msgid "Importing Options..."
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library.php:134
+msgid "Importing Widgets..."
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library.php:136
+msgid "Preparing Data..."
+msgstr ""
+
+#: includes/admin/demo-library/class-sinatra-demo-library.php:137
+msgid "No results found"
+msgstr ""
+
+#: includes/cli/commands/class-cli-import.php:35
+msgid "Imports demo content"
+msgstr ""
+
+#: includes/cli/commands/class-cli-import.php:53
+msgid "Imports a demo page"
+msgstr ""
+
+#. translators: %s Demo Slug
+#: includes/cli/commands/class-cli-import.php:97
+msgid "%s demo slug is not valid."
+msgstr ""
+
+#. translators: %s import step
+#: includes/cli/commands/class-cli-import.php:126
+msgid "Importing %s..."
+msgstr ""
+
+#: includes/cli/commands/class-cli-import.php:145
+msgid "Demo import complete."
+msgstr ""
+
+#: includes/cli/commands/class-cli-import.php:225
+msgid "Page imported."
+msgstr ""
+
+#: includes/admin/demo-library/importers/class-customizer-import-export.php:64, includes/admin/demo-library/importers/class-options-import-export.php:64, includes/admin/demo-library/importers/class-widgets-import-export.php:66
+msgid "Import data could not be read. Please try a different file."
+msgstr ""
+
+#: includes/admin/demo-library/importers/class-widgets-import-export.php:105
+msgid "Widget area does not exist in theme (using Inactive)"
+msgstr ""
+
+#: includes/admin/demo-library/importers/class-widgets-import-export.php:128
+msgid "Site does not support widget"
+msgstr ""
+
+#: includes/admin/demo-library/importers/class-widgets-import-export.php:212
+msgid "Widget already exists"
+msgstr ""
+
+#: includes/admin/demo-library/importers/class-widgets-import-export.php:292
+msgid "Imported to Inactive"
+msgstr ""
+
+#: includes/admin/demo-library/importers/class-widgets-import-export.php:289
+msgid "Imported"
+msgstr ""
+
+#: includes/admin/demo-library/importers/class-widgets-import-export.php:298
+msgid "No Title"
+msgstr ""
