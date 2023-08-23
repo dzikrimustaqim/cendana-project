@@ -1363,7 +1363,6 @@ CREATE TABLE `wp_users` (
 
 INSERT INTO `wp_users` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_url`, `user_registered`, `user_activation_key`, `user_status`, `display_name`) VALUES
 (1, 'adminsmacendanapku', '$P$BhqeP2U8aFwaVkN6GLJS/5bWP8RbFA1', 'adminsmacendanapku', 'shintafw05@gmail.com', 'http://cendana-alb-1657713023.us-west-2.elb.amazonaws.com', '2023-06-30 08:37:48', '', 0, 'adminsmacendanapku');
-(2, 'dani', '123', 'dani', 'danimmunir1@gmail.com', 'http://cendana-alb-1657713023.us-west-2.elb.amazonaws.com', '2023-06-30 08:37:48', '', 0, 'dani');
 
 --
 -- Indexes for dumped tables
